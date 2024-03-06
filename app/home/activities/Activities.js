@@ -7,7 +7,7 @@ const Activities = ({ actCard }) => {
     <div className={`md:container md:mx-auto ${styles.activitiesContainer}`}>
       <h1>Activities</h1>
 
-      <div className={styles.activities}>
+      <div className={`grid grid-cols-3 gap-4 ${styles.activities}`}>
         {actCard.map((data, index) => (
           <div key={index} className={styles.card}>
             <Image

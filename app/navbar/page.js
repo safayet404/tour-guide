@@ -5,7 +5,7 @@ import logo from "../../public/images/logo.png";
 import Image from "next/image";
 const TopNav = () => {
   return (
-    <div className={styles.container}>
+    <nav className={`fixed top-0 w-full z-50 ${styles.container}`}>
      
         <div className={styles.logo}>
           <Image
@@ -24,7 +24,7 @@ const TopNav = () => {
           <Link  className={styles.navItems} href="/">Contact</Link>
         </div>
      
-    </div>
+    </nav>
   );
 };
 

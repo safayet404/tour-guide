@@ -20,6 +20,8 @@ import DS3 from "@/public/images/destination-3.jpg"
 import DS4 from "@/public/images/destination-4.jpg"
 import DS5 from "@/public/images/destination-5.jpg"
 import DS6 from "@/public/images/destination-6.jpg"
+import Popular from "./home/popular/Popular";
+import Video from "./home/video/Video";
 
 const slides = [
   {
@@ -105,6 +107,8 @@ const TopBanner = () => {
       <ImageSlider slides={slides} />
       <Activities actCard={cardData} />
       <Destination dstCard={destinationData}/>
+      <Popular />
+      <Video />
     </div>
   );
 };
