@@ -22,6 +22,7 @@ import DS5 from "@/public/images/destination-5.jpg"
 import DS6 from "@/public/images/destination-6.jpg"
 import Popular from "./home/popular/Popular";
 import Video from "./home/video/Video";
+import Blog from "./home/blog/Blog";
 
 const slides = [
   {
@@ -109,6 +110,7 @@ const TopBanner = () => {
       <Destination dstCard={destinationData}/>
       <Popular />
       <Video />
+      <Blog/>
     </div>
   );
 };

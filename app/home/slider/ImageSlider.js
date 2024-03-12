@@ -15,7 +15,7 @@ const ImageSlider = ({ slides }) => {
   };
 
   return (
-    <div className="container-fluid" >
+    <div >
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className={styles.slide}>

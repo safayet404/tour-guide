@@ -15,7 +15,7 @@
     padding-right: 290px !important;
 }
 .navItems{
-    text-decoration: none!;
+    text-decoration: none !important;
     text-transform: uppercase;
     padding: 20px !important;
     color: white !important;

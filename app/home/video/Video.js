@@ -1,11 +1,19 @@
+
 import Image from "next/image";
-import React from "react";
+import React, { useState } from "react";
 import bg from "@/public/images/video-bg.jpg";
 import { FaPlayCircle ,FaPlay  } from "react-icons/fa";
 
 import "@/app/home/home.module.css";
 
+import {Player,BigPlayButton} from 'video-react'
+import CustomModal from "../modal/CustomModal";
 const Video = () => {
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
   return (
     <div>
       <div className="container px-4 mt-10">
@@ -27,11 +35,15 @@ const Video = () => {
       <div>
         <div className="videoContainer">
           <Image className="videoBackground" src={bg} alt="video-bg" />
-          <p className="videoIcons"><FaPlay  /></p>
+          <button onClick={handleShow} className="videoIcons">
+            <FaPlay />
+          </button>
+           <CustomModal show={show} handleClose={handleClose} />
         </div>
       </div>
     </div>
   );
 };
+
 
 export default Video;
