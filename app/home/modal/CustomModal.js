@@ -1,6 +1,5 @@
 import {Button, Modal} from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { FaPlayCircle ,FaPlay  } from "react-icons/fa";
 import 'video-react/dist/video-react.css';
 import {Player,BigPlayButton} from 'video-react'
 const CustomModal = ({show,onHide,onClick,handleClose,handleShow}) => {

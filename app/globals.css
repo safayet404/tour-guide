@@ -1,4 +1,6 @@
 @import url("../app/home/home.module.css");
+@import url("../app//about/about.module.css");
+@import url("../app/about//navtest/navTest.module.css");
 
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';

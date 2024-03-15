@@ -1,15 +1,17 @@
-import React from "react";
+import React, { Fragment } from "react";
 import styles from "../home.module.css";
 import Image from "next/image";
+import { Col, Container, Row } from "react-bootstrap";
 
 const Activities = ({ actCard }) => {
   return (
-    <div className={`md:container md:mx-auto ${styles.activitiesContainer}`}>
-      <h1>Activities</h1>
 
-      <div className={`grid grid-cols-3 gap-4 ${styles.activities}`}>
+    <Fragment>
+      <Container>
+        <Row  className="activities">
         {actCard.map((data, index) => (
-          <div key={index} className={styles.card}>
+          <Col key={index}  lg={3} md={6} sm={12}>
+            <div key={index} className={styles.ActCard}>
             <Image
               className={styles.cardImage}
               alt={data.title}
@@ -18,9 +20,14 @@ const Activities = ({ actCard }) => {
             <h3>{data.title}</h3>
             <p>{data.description}</p>
           </div>
+          </Col>
         ))}
-      </div>
-    </div>
+         
+        </Row>
+      </Container>
+
+  
+    </Fragment>
   );
 };
 

@@ -2,11 +2,9 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import bg from "@/public/images/video-bg.jpg";
-import { FaPlayCircle ,FaPlay  } from "react-icons/fa";
+import {FaPlay  } from "react-icons/fa";
 
 import "@/app/home/home.module.css";
-
-import {Player,BigPlayButton} from 'video-react'
 import CustomModal from "../modal/CustomModal";
 const Video = () => {
 
