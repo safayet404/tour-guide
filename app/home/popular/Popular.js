@@ -68,7 +68,7 @@ const Popular = () => {
   const settings = {
     infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoPlay: true,
     autoplaySpeed: 3000,
