@@ -9,6 +9,7 @@ import p2 from "@/public/images/activities-2.jpg"
 import p3 from "@/public/images/activities-3.jpg"
 import p4 from "@/public/images/activities-4.jpg"
 import p5 from "@/public/images/activities-5.jpg"
+import { Container } from "react-bootstrap";
 
 const popular_slider = [ 
   {
@@ -65,14 +66,40 @@ const popular_slider = [
 
 const Popular = () => {
 
-  const settings = {
-    infinite: false,
+  var settings = {
+    
+    infinite: true,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoPlay: true,
-    autoplaySpeed: 3000,
-  };
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+        
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };;
 
   return (
     <div>
@@ -81,7 +108,7 @@ const Popular = () => {
         We offer you the most exciting activities so you can have the most
         unforgettable vacations.
       </p>
-      <div className="container mx-auto px-5">
+      <Container className="mx-auto px-5">
       <Slider {...settings}>
         {popular_slider.map((slide, index) => (
           <div key={index} className="popularSlide">
@@ -120,7 +147,7 @@ const Popular = () => {
 
         <div></div>
       </Slider>
-    </div>
+    </Container>
     </div>
   );
 };
