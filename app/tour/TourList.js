@@ -61,14 +61,14 @@ const TourList = () => {
             </Card> */}
           </Col>
           <Col className="mb-5" lg={4} md={6} sm={12}>
-            {/* <Card style={{ width: "23rem" }}>
+            <Card>
               <Image className="tourCardImage" alt="tour-list" src={t5} />
               <Card.Body>
                 <Card.Title>Paragliding in Cox's Bazar Inani Beach</Card.Title>
                 <Card.Text>Starting from Tk 7000</Card.Text>
                 <Button variant="success">Details</Button>
               </Card.Body>
-            </Card> */}
+            </Card>
           </Col>
         </Row>
       </Container>
