@@ -106,9 +106,8 @@
   transform: translateY(-50%);
   display: flex;
   flex-direction: column;
-
-
-  font-size: 25px !important;
+  color: white;
+  font-size: 35px !important;
 
 }
 
@@ -142,8 +141,8 @@
   align-items: center !important;
   padding: 0px 100px 0px 100px !important;
   margin-top: 50px !important;
-  
-  
+
+
 }
 
 .ActCard {
@@ -319,13 +318,14 @@
 }
 
 .footerIcons {
- 
+
   color: white;
   font-size: 40px !important;
   box-shadow: 0 px 0px 0 rgba(255, 251, 251, 0.2);
   margin: 30px !important;
   transition: 0.5s;
 }
+
 .footerIcons:hover {
   box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.2);
 
