@@ -1,6 +1,5 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import TopNav from "./navbar/page";
 import Footer from "./footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavTest from "./navbar/page";
@@ -14,14 +13,14 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+    
     <html lang="en">
       <body className={inter.className}>
-        <div >
-          <NavTest></NavTest>
-         
+        <div>
+        <NavTest />
           {children}
-          <Footer/>
-        </div>
+        <Footer />
+          </div>
       </body>
     </html>
   );

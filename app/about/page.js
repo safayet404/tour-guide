@@ -10,7 +10,7 @@ import NavTest from "./navtest/NavTest";
 const page = () => {
   return (
     <div>
-     <Banner/>
+     <Banner title="About Page" subTitle="Home | About Page"/>
      <Memories/>
      <Team/>
      <Blog />

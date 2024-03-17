@@ -4,7 +4,7 @@ import { CiTwitter, CiFacebook, CiInstagram } from "react-icons/ci";
 import AB from "@/public/images/pages-bg.jpg";
 import "@/app/about/about.module.css";
 import { Col, Container, Row } from "react-bootstrap";
-const Banner = () => {
+const Banner = ({title,subTitle}) => {
   return (
     <div>
       <div className="imageContainer">
@@ -14,8 +14,8 @@ const Banner = () => {
         <Container>
           <Row>
             <Col className="pageContent">
-              <h1 className="pageHead">About US</h1>
-              <p className="pageSubHead">Home | About Us</p>
+              <h1 className="pageHead">{title}</h1>
+              <p className="pageSubHead">{subTitle}</p>
             </Col>
           </Row>
         </Container>

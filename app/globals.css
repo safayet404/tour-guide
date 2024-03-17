@@ -1,7 +1,8 @@
 @import url("../app/home/home.module.css");
 @import url("../app//about/about.module.css");
 @import url("../app/about//navtest/navTest.module.css");
-
+@import url("../app/tour/tour.module.css");
+@import url("../app/contact/contact.module.css");
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
@@ -27,3 +28,6 @@ a {
   color: inherit;
 }
 
+.topMargin {
+  margin-top: 50px !important;
+}

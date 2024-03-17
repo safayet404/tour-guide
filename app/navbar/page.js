@@ -13,7 +13,7 @@ const NavTest = () => {
         <Container
          
         >
-          <Navbar.Brand className="logo" href="#home">
+          <Navbar.Brand className="logo" href="">
             <Image
               height={50}
               width={200}
@@ -33,13 +33,13 @@ const NavTest = () => {
               <Link className="navItem" href="/about">
                 About
               </Link>
-              <Link className="navItem" href="/">
+              <Link className="navItem" href="/tour">
                 Tours
               </Link>
-              <Link className="navItem" href="/">
+              <Link className="navItem" href="/team">
                 Team
               </Link>
-              <Link c className="navItem" href="/">
+              <Link c className="navItem" href="/contact">
                 Contact
               </Link>
             </Nav>
