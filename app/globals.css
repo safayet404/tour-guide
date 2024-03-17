@@ -3,6 +3,7 @@
 @import url("../app/about//navtest/navTest.module.css");
 @import url("../app/tour/tour.module.css");
 @import url("../app/contact/contact.module.css");
+
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
