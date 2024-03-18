@@ -15,54 +15,52 @@ const TourList = () => {
         <h1 className="text-center">Tour List</h1>
         <Row className="mt-5">
           <Col className="mb-5" lg={4} md={6} sm={12}>
-            {/* <Card style={{ width: "23rem" }}>
-              <Image
-                className="tourCardImage"
-                height={100}
-                width={300}
-                alt="tour-list"
-                src={t1}
-              />
-              <Card.Body>
-                <Card.Title>Paragliding in Cox's Bazar Inani Beach</Card.Title>
-                <Card.Text>Starting from Tk 7000</Card.Text>
-                <Button variant="success">Details</Button>
-              </Card.Body>
-            </Card> */}
+          <div class="tourCard" style={{maxWidth:"368px"}}>
+              <Image src={t5} alt="Avatar" className="tourCardImage"  />
+              <div class="tourContainer">
+                <h4>
+                  <b>John Doe</b>
+                </h4>
+                <p>Architect & Engineer</p>
+              </div>
+            </div>
           </Col>
           <Col className="mb-5" lg={4} md={6} sm={12}>
-            {/* <Card style={{ width: "23rem" }}>
-              <Image className="tourCardImage" alt="tour-list" src={t2} />
-              <Card.Body>
-                <Card.Title>Paragliding in Cox's Bazar Inani Beach</Card.Title>
-                <Card.Text>Starting from Tk 7000</Card.Text>
-                <Button variant="success">Details</Button>
-              </Card.Body>
-            </Card> */}
+          <div class="tourCard">
+              <Image src={t5} alt="Avatar" className="tourCardImage"  />
+              <div class="tourContainer">
+                <h4>
+                  <b>John Doe</b>
+                </h4>
+                <p>Architect & Engineer</p>
+              </div>
+            </div>
           </Col>
           <Col className="mb-5" lg={4} md={6} sm={12}>
-            {/* <Card style={{ width: "23rem" }}>
-              <Image className="tourCardImage" alt="tour-list" src={t3} />
-              <Card.Body>
-                <Card.Title>Paragliding in Cox's Bazar Inani Beach</Card.Title>
-                <Card.Text>Starting from Tk 7000</Card.Text>
-                <Button variant="success">Details</Button>
-              </Card.Body>
-            </Card> */}
+          <div class="tourCard">
+              <Image src={t5} alt="Avatar" className="tourCardImage"  />
+              <div class="tourContainer">
+                <h4>
+                  <b>John Doe</b>
+                </h4>
+                <p>Architect & Engineer</p>
+              </div>
+            </div>
           </Col>
           <Col className="mb-5" lg={4} md={6} sm={12}>
-            {/* <Card style={{ width: "23rem" }}>
-              <Image className="tourCardImage" alt="tour-list" src={t4} />
-              <Card.Body>
-                <Card.Title>Paragliding in Cox's Bazar Inani Beach</Card.Title>
-                <Card.Text>Starting from Tk 7000</Card.Text>
-                <Button variant="success">Details</Button>
-              </Card.Body>
-            </Card> */}
+          <div class="tourCard">
+              <Image src={t5} alt="Avatar" className="tourCardImage"  />
+              <div class="tourContainer">
+                <h4>
+                  <b>John Doe</b>
+                </h4>
+                <p>Architect & Engineer</p>
+              </div>
+            </div>
           </Col>
           <Col className="mb-5" lg={4} md={6} sm={12}>
             <div class="tourCard">
-              <Image src={t5} alt="Avatar"  />
+              <Image src={t5} alt="Avatar" className="tourCardImage"  />
               <div class="tourContainer">
                 <h4>
                   <b>John Doe</b>
