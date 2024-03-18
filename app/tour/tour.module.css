@@ -16,6 +16,11 @@
     border-radius: 2px !important;
   }
   
+.tourCardLink {
+    /* Add shadows to create the "card" effect */
+   text-decoration:  none !important;
+  }
+  
   /* On mouse-over, add a deeper shadow */
   .tourCard:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
