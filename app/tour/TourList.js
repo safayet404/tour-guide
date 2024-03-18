@@ -23,7 +23,7 @@ const TourList = () => {
                   <p>Starting from </p>
                   <h5 className="flex">85000 <TbCurrencyTaka/> </h5>
                 </div>
-                <Button className="btn-success mb-2">Details</Button>
+               
               </div>
             </div>
           </Col>
@@ -36,7 +36,7 @@ const TourList = () => {
                   <p>Starting from </p>
                   <h5 className="flex">85000 <TbCurrencyTaka/> </h5>
                 </div>
-                <Button className="btn-success mb-2">Details</Button>
+               
               </div>
             </div>
           </Col>
@@ -49,7 +49,7 @@ const TourList = () => {
                   <p>Starting from </p>
                   <h5 className="flex">85000 <TbCurrencyTaka/> </h5>
                 </div>
-                <Button className="btn-success mb-2">Details</Button>
+             
               </div>
             </div>
           </Col>
@@ -62,7 +62,7 @@ const TourList = () => {
                   <p>Starting from </p>
                   <h5 className="flex">85000 <TbCurrencyTaka/> </h5>
                 </div>
-                <Button className="btn-success mb-2">Details</Button>
+            
               </div>
             </div>
           </Col>
@@ -75,7 +75,7 @@ const TourList = () => {
                   <p>Starting from </p>
                   <h5 className="flex">85000 <TbCurrencyTaka/> </h5>
                 </div>
-                <Button className="btn-success mb-2">Details</Button>
+               
               </div>
             </div>
           </Col>
