@@ -19,6 +19,7 @@
 .tourCardLink {
     /* Add shadows to create the "card" effect */
    text-decoration:  none !important;
+   color: rgb(70, 70, 17) !important;
   }
   
   /* On mouse-over, add a deeper shadow */
