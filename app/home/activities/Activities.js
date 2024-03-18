@@ -7,7 +7,8 @@ const Activities = ({ actCard }) => {
   return (
 
     <Fragment>
-      <Container>
+      <Container className="text-center">
+        <h2 className="activitiyHeader">Activities</h2>
         <Row  className="activities">
         {actCard.map((data, index) => (
           <Col key={index}  lg={3} md={6} sm={12}>

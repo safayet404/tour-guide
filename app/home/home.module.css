@@ -126,7 +126,7 @@
   width: 100%,
 }
 
-.activitiesContainer h1 {
+.activitiyHeader {
   text-align: center;
 
   margin-top: 20px;
@@ -176,7 +176,7 @@
 .ActCard p {
   color: rgb(70, 66, 66);
 
-  font-size: 15px;
+  font-size: 14px;
   font-family:
     "Helvetica Neue"
     Helvetica Arial sans-serif;

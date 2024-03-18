@@ -12,7 +12,7 @@ const Destination = ({ dstCard }) => {
       </p>
       <Row className="container mx-auto px-4 mt-5">
         {dstCard.map((data, index) => (
-          <Col key={index} lg={4} md={6} sm={12} >
+          <Col className="mt-3" key={index} lg={4} md={6} sm={12} >
             <div className="relative">
               <Image
                 src={data.image}

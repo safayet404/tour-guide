@@ -11,7 +11,7 @@ import t5 from "@/public/images/activities-14.jpg";
 const TourList = () => {
   return (
     <Fragment>
-     <Container className="topMargin">
+      <Container className="topMargin">
         <h1 className="text-center">Tour List</h1>
         <Row className="mt-5">
           <Col className="mb-5" lg={4} md={6} sm={12}>
@@ -61,14 +61,15 @@ const TourList = () => {
             </Card> */}
           </Col>
           <Col className="mb-5" lg={4} md={6} sm={12}>
-            <Card>
-              <Image className="tourCardImage" alt="tour-list" src={t5} />
-              <Card.Body>
-                <Card.Title>Paragliding in Cox's Bazar Inani Beach</Card.Title>
-                <Card.Text>Starting from Tk 7000</Card.Text>
-                <Button variant="success">Details</Button>
-              </Card.Body>
-            </Card>
+            <div class="tourCard">
+              <Image src={t5} alt="Avatar"  />
+              <div class="tourContainer">
+                <h4>
+                  <b>John Doe</b>
+                </h4>
+                <p>Architect & Engineer</p>
+              </div>
+            </div>
           </Col>
         </Row>
       </Container>
