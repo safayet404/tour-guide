@@ -18,7 +18,7 @@ const TourList = () => {
             <div class="tourCard" style={{ maxWidth: "368px" }}>
               <Image src={t1} alt="Avatar" className="tourCardImage" />
               <div class="tourContainer">
-                <h4 className="mt-2">Paragliding in Cox's Bazar</h4>
+                <h4>Paragliding in Cox's Bazar</h4>
                 <div className="flex justify-content-between">
                   <p>Starting from </p>
                   <h5 className="flex">85000 <TbCurrencyTaka/> </h5>
@@ -31,7 +31,7 @@ const TourList = () => {
           <div class="tourCard" style={{ maxWidth: "368px" }}>
               <Image src={t2} alt="Avatar" className="tourCardImage" />
               <div class="tourContainer">
-                <h4 className="mt-2">Paragliding in Cox's Bazar</h4>
+                <h4>Paragliding in Cox's Bazar</h4>
                 <div className="flex justify-content-between">
                   <p>Starting from </p>
                   <h5 className="flex">85000 <TbCurrencyTaka/> </h5>
@@ -44,7 +44,7 @@ const TourList = () => {
           <div class="tourCard" style={{ maxWidth: "368px" }}>
               <Image src={t3} alt="Avatar" className="tourCardImage" />
               <div class="tourContainer">
-                <h4 className="mt-2">Paragliding in Cox's Bazar</h4>
+                <h4>Paragliding in Cox's Bazar</h4>
                 <div className="flex justify-content-between">
                   <p>Starting from </p>
                   <h5 className="flex">85000 <TbCurrencyTaka/> </h5>
@@ -57,7 +57,7 @@ const TourList = () => {
           <div class="tourCard" style={{ maxWidth: "368px" }}>
               <Image src={t4} alt="Avatar" className="tourCardImage" />
               <div class="tourContainer">
-                <h4 className="mt-2">Paragliding in Cox's Bazar</h4>
+                <h4>Paragliding in Cox's Bazar</h4>
                 <div className="flex justify-content-between">
                   <p>Starting from </p>
                   <h5 className="flex">85000 <TbCurrencyTaka/> </h5>
@@ -70,7 +70,7 @@ const TourList = () => {
           <div class="tourCard" style={{ maxWidth: "368px" }}>
               <Image src={t5} alt="Avatar" className="tourCardImage" />
               <div class="tourContainer">
-                <h4 className="mt-2">Paragliding in Cox's Bazar</h4>
+                <h4>Paragliding in Cox's Bazar</h4>
                 <div className="flex justify-content-between">
                   <p>Starting from </p>
                   <h5 className="flex">85000 <TbCurrencyTaka/> </h5>
